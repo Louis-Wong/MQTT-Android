@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wzy.mqtt_demo.Publish">
+
+    <Button
+        android:id="@+id/conBnt"
+
+        android:text="connection"
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/stateText"
+
+        android:text="Disconnected"
+        android:textSize="20dp"
+        android:textColor="#ffff0000"
+
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="20dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/pubBnt"
+
+        android:text="publish"
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/subBnt"
+
+        android:text="subscribe"
+
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="60dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/logBnt"
+
+        android:text="view"
+
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="60dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/sensorX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="30dp"
+        android:text="Orientation X:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sensorY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="30dp"
+        android:text="Slope Y:         "
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sensorZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="30dp"
+        android:text="Rolling Z:      "
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/publishBnt"
+
+        android:text="publish"
+
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="350dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</RelativeLayout>

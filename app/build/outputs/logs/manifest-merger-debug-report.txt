@@ -1,0 +1,107 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml:4:5-78
+	android:name
+		ADDED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml:4:22-76
+uses-permission#android.permission.INTERNET
+ADDED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml:6:22-65
+application
+ADDED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml:8:5-24:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Wzy\.android\build-cache\4eaccf0d162ec009b115c7e0ff4f542f8d2a663b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Wzy\.android\build-cache\b6de7b5773cf2e8adc8b4381508c120b1f62fa9f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Wzy\.android\build-cache\1d671e965f3e02d28e6f8b14440c4df307cee5b8\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Wzy\.android\build-cache\c2020561dc7df27f2a1bc0f016adb5a2a6535417\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Wzy\.android\build-cache\0d9b75835dff45a4a50d928ab4c8ad5563087f03\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Wzy\.android\build-cache\07dd5d316c407443e9a58744f0a1579d95f2be34\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Wzy\.android\build-cache\1ef6cf4bd72d183f4fb1797b1f507633281709b2\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Wzy\.android\build-cache\c73b7a42a992ae2e64b07670846ac96e1a41379d\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Wzy\.android\build-cache\3574ba31d03fef2ec74cee45377826b03ffc7644\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] C:\Users\Wzy\.android\build-cache\ebcb760719dd7f0c2716524d0838c7f2c24c156d\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml:11:9-41
+	android:supportsRtl
+		ADDED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml:13:9-35
+	android:roundIcon
+		ADDED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml:12:9-54
+	android:allowBackup
+		ADDED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml:9:9-35
+	android:icon
+		ADDED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml:10:9-38
+	android:theme
+		ADDED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml:14:9-40
+activity#com.example.wzy.mqtt_demo.Publish
+ADDED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml:15:19-42
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml:19:27-74
+activity#com.example.wzy.mqtt_demo.Subscribe
+ADDED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml:22:9-47
+	android:name
+		ADDED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml:22:19-44
+activity#com.example.wzy.mqtt_demo.ViewLog
+ADDED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml:23:9-44
+	android:name
+		ADDED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml:23:19-42
+uses-sdk
+INJECTED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Wzy\.android\build-cache\4eaccf0d162ec009b115c7e0ff4f542f8d2a663b\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Wzy\.android\build-cache\b6de7b5773cf2e8adc8b4381508c120b1f62fa9f\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Wzy\.android\build-cache\1d671e965f3e02d28e6f8b14440c4df307cee5b8\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Wzy\.android\build-cache\c2020561dc7df27f2a1bc0f016adb5a2a6535417\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Wzy\.android\build-cache\0d9b75835dff45a4a50d928ab4c8ad5563087f03\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Wzy\.android\build-cache\07dd5d316c407443e9a58744f0a1579d95f2be34\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Wzy\.android\build-cache\1ef6cf4bd72d183f4fb1797b1f507633281709b2\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Wzy\.android\build-cache\c73b7a42a992ae2e64b07670846ac96e1a41379d\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Wzy\.android\build-cache\3574ba31d03fef2ec74cee45377826b03ffc7644\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] C:\Users\Wzy\.android\build-cache\ebcb760719dd7f0c2716524d0838c7f2c24c156d\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Wzy\.android\build-cache\4eaccf0d162ec009b115c7e0ff4f542f8d2a663b\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\MQTT_demo\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Wzy\.android\build-cache\4eaccf0d162ec009b115c7e0ff4f542f8d2a663b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Wzy\.android\build-cache\b6de7b5773cf2e8adc8b4381508c120b1f62fa9f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Wzy\.android\build-cache\1d671e965f3e02d28e6f8b14440c4df307cee5b8\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Wzy\.android\build-cache\c2020561dc7df27f2a1bc0f016adb5a2a6535417\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Wzy\.android\build-cache\0d9b75835dff45a4a50d928ab4c8ad5563087f03\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Wzy\.android\build-cache\07dd5d316c407443e9a58744f0a1579d95f2be34\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Wzy\.android\build-cache\1ef6cf4bd72d183f4fb1797b1f507633281709b2\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Wzy\.android\build-cache\c73b7a42a992ae2e64b07670846ac96e1a41379d\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Wzy\.android\build-cache\3574ba31d03fef2ec74cee45377826b03ffc7644\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Wzy\.android\build-cache\4eaccf0d162ec009b115c7e0ff4f542f8d2a663b\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Wzy\.android\build-cache\4eaccf0d162ec009b115c7e0ff4f542f8d2a663b\output\AndroidManifest.xml:26:9-47
